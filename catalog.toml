@@ -1,0 +1,12 @@
+[[plugin]]
+id           = "local/gpu-status"
+name         = "Active GPU & Monitor Status"
+version      = "1.0.0"
+author       = "local"
+license      = "MIT"
+icon         = "cpu"
+description  = "Displays the active rendering GPU and per-monitor scanout GPU."
+deprecated   = false
+plugin_api   = 45
+tags         = ["gpu", "display", "bar", "hardware", "umbriel"]
+dependencies = ["umbriel"]
